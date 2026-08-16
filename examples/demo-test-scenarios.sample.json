@@ -1,0 +1,42 @@
+{
+  "sourceName": "Sample regression scenarios",
+  "sourceDate": "2026-01-01",
+  "sourceUrl": null,
+  "needsVerification": true,
+  "scenarios": [
+    {
+      "key": "lump-sum-demo",
+      "input": {
+        "initialAmount": 100000,
+        "monthlyAmount": 0,
+        "years": 20,
+        "annualReturnPercent": 5
+      },
+      "expected": {
+        "productAValueAfterTax": null,
+        "productBValueAfterTax": null
+      },
+      "tolerance": {
+        "absolute": 1,
+        "reason": "Replace with validated benchmark and tolerance explanation."
+      }
+    },
+    {
+      "key": "monthly-demo",
+      "input": {
+        "initialAmount": 0,
+        "monthlyAmount": 500,
+        "years": 30,
+        "annualReturnPercent": 5
+      },
+      "expected": {
+        "productAValueAfterTax": null,
+        "productBValueAfterTax": null
+      },
+      "tolerance": {
+        "absolute": 1,
+        "reason": "Replace with validated benchmark and tolerance explanation."
+      }
+    }
+  ]
+}

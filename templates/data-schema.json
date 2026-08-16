@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Financial Calculator Assumption File",
+  "type": "object",
+  "required": ["sourceName", "sourceDate", "needsVerification", "parameters"],
+  "properties": {
+    "productKey": {
+      "type": "string",
+      "description": "Stable internal product or model key."
+    },
+    "displayName": {
+      "type": "object",
+      "properties": {
+        "zh": { "type": "string" },
+        "de": { "type": "string" },
+        "en": { "type": "string" }
+      }
+    },
+    "sourceName": {
+      "type": "string",
+      "description": "Use a public source name or sanitized internal summary."
+    },
+    "sourceDate": {
+      "type": "string",
+      "description": "Date when assumptions were last checked. Use YYYY-MM-DD."
+    },
+    "sourceUrl": {
+      "type": ["string", "null"],
+      "description": "Public URL only. Do not use local file paths in public repos."
+    },
+    "needsVerification": {
+      "type": "boolean",
+      "description": "True unless the value is verified against official public documentation."
+    },
+    "parameters": {
+      "type": "object",
+      "additionalProperties": {
+        "type": ["number", "string", "boolean", "object", "array", "null"]
+      }
+    },
+    "notes": {
+      "type": "object",
+      "properties": {
+        "zh": { "type": "string" },
+        "de": { "type": "string" },
+        "en": { "type": "string" }
+      }
+    }
+  },
+  "additionalProperties": false
+}

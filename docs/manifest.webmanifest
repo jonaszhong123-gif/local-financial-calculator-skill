@@ -1,0 +1,33 @@
+{
+  "name": "Investment / Lebensversicherung Rechner",
+  "short_name": "Life Calculator",
+  "description": "Lokaler Modellrechner fuer ETF-Depot und Lebensversicherung. Keine Anlage-, Steuer- oder Produktempfehlung.",
+  "lang": "de-AT",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait",
+  "background_color": "#f4f6f2",
+  "theme_color": "#1f6046",
+  "categories": ["finance", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

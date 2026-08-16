@@ -1,0 +1,26 @@
+{
+  "productKey": "demo-wrapper-product",
+  "displayName": {
+    "zh": "示例包装产品",
+    "de": "Demo-Mantelprodukt",
+    "en": "Demo wrapper product"
+  },
+  "sourceName": "Sample assumptions for template demonstration only",
+  "sourceDate": "2026-01-01",
+  "sourceUrl": null,
+  "needsVerification": true,
+  "parameters": {
+    "premiumTaxRate": 0.04,
+    "investedPremiumRate": 0.9,
+    "initialCostRate": 0.03,
+    "monthlyAdminCostRate": 0.0003,
+    "fundOngoingCostRate": 0.002,
+    "surrenderPenaltyRate": 0.01,
+    "surrenderPenaltyBeforeYears": 10
+  },
+  "notes": {
+    "zh": "这些是示例参数，不代表任何真实产品。",
+    "de": "Diese Werte sind Beispieldaten und stellen kein reales Produkt dar.",
+    "en": "These are sample assumptions and do not represent a real product."
+  }
+}

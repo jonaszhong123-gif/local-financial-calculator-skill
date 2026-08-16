@@ -1,0 +1,20 @@
+{
+  "sourceName": "Generic demo assumptions",
+  "sourceDate": "2026-01-01",
+  "sourceUrl": null,
+  "needsVerification": true,
+  "parameters": {
+    "defaultInitialAmount": 0,
+    "defaultMonthlyAmount": 0,
+    "defaultYears": 20,
+    "defaultAnnualReturnPercent": 5,
+    "capitalGainsTaxRate": 0.25,
+    "inflationRate": 0.02,
+    "currency": "EUR"
+  },
+  "notes": {
+    "zh": "公开模板使用的通用示例假设。正式使用前必须替换。",
+    "de": "Allgemeine Beispielannahmen fuer das oeffentliche Template. Vor Nutzung ersetzen.",
+    "en": "Generic sample assumptions for the public template. Replace before use."
+  }
+}
