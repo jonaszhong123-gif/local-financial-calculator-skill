@@ -1,4 +1,4 @@
-const CACHE_NAME = "investment-life-calculator-v1.5.1-pwa";
+const CACHE_NAME = "investment-life-calculator-v1.6.0-pwa";
 const APP_SHELL = [
   "./",
   "./index.html",
